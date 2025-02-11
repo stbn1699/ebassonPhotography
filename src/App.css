@@ -1,0 +1,25 @@
+.corps{
+	height: 100%;
+	position: relative;
+	z-index: 1;
+	overflow-y: auto;
+	max-height: calc(100vh - 5rem);
+}
+
+.caroussel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background-color: black;
+	transition: background-image 3s;
+	background-size: cover;
+	background-position: center;
+}
+
+.gradientSeparator{
+	height: 15rem;
+	background: linear-gradient(#26262600, #000000BB);
+}

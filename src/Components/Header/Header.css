@@ -1,0 +1,19 @@
+.header{
+	z-index: 2;
+	position: relative;
+	background-color: #262626;
+	height: 5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+img{
+	height: 4rem;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+}
