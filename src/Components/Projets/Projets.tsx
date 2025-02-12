@@ -1,4 +1,4 @@
-import './Projets.css';
+import './Projets.scss';
 import {useEffect, useState} from "react";
 
 interface Projet {
