@@ -3,6 +3,7 @@ import "./App.scss";
 import Header from "./Components/Header/Header.tsx";
 import Home from "./Components/Home/Home.tsx";
 import Projets from "./Components/Projets/Projets.tsx";
+import Prix from "./Components/Prix/Prix.tsx";
 
 function App() {
 	const [images, setImages] = useState<string[]>([]);
@@ -35,6 +36,7 @@ function App() {
 				<Home/>
 				<div className="gradientSeparator"></div>
 				<Projets/>
+				<Prix/>
 			</div>
 			<div
 				className="caroussel"
