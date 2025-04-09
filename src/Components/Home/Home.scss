@@ -8,7 +8,6 @@
 	flex-direction: column;
 
 	img {
-		margin: 6rem 0;
 		width: 60%;
 		height: fit-content;
 
@@ -22,7 +21,8 @@
 	}
 
 	.chevron-icon {
-		margin-top: 1rem;
+		position: absolute;
+		bottom: 1rem;
 		font-size: 2rem;
 		color: white;
 		animation: bounce 2s infinite;
