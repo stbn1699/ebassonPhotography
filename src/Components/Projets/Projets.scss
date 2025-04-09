@@ -1,15 +1,15 @@
 .projets {
+	align-items: center;
 	background: #000000BB;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	text-align: center;
+	height: calc(100vh - 5rem);
+	justify-content: space-around;
 	position: relative;
-	align-items: center;
+	text-align: center;
 
 	.title {
 		font-size: 6rem;
-		margin-top: 7rem;
 		text-align: center;
 
 		@media only screen and (max-width: 500px) {
@@ -21,8 +21,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		max-width: 90rem;
 		margin: 5rem auto;
+		max-width: 90rem;
 
 		.project {
 			margin: 2rem;
@@ -50,11 +50,11 @@
 	}
 
 	.chevron-icon {
-		position: absolute;
-		bottom: 1rem;
-		font-size: 2rem;
-		color: white;
 		animation: bounce 2s infinite;
+		bottom: 1rem;
+		color: white;
+		font-size: 2rem;
+		position: absolute;
 
 		@keyframes bounce {
 			0%, 20%, 50%, 80%, 100% {
