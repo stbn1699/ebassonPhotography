@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import "./App.css";
+import "./App.scss";
 import Header from "./Components/Header/Header.tsx";
 import Home from "./Components/Home/Home.tsx";
 import Projets from "./Components/Projets/Projets.tsx";
@@ -36,10 +36,12 @@ function App() {
 				<div className="gradientSeparator"></div>
 				<Projets/>
 			</div>
+			<img className="logoTransparent" src="Images/logoCentralBlanc.png" alt="logo Esteban Basson cursif"/>
 			<div
 				className="caroussel"
 				style={{backgroundImage: `url(${backgroundImage})`}}
-			></div>
+			>
+			</div>
 		</>
 	);
 }

@@ -17,9 +17,25 @@
 	transition: background-image 3s;
 	background-size: cover;
 	background-position: center;
+
 }
 
 .gradientSeparator{
 	height: 15rem;
 	background: linear-gradient(#26262600, #000000BB);
+}
+
+.logoTransparent {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	height: 20rem;
+
+	@media only screen and (max-width: 1000px) {
+		height: 15rem;
+	}
+
+	@media only screen and (max-width: 500px) {
+		height: 10rem;
+	}
 }
