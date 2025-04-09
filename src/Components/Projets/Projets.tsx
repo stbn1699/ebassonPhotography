@@ -1,5 +1,7 @@
 import './Projets.scss';
 import {useEffect, useState} from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
 
 interface Projet {
 	image: string;
@@ -30,6 +32,9 @@ function Projets() {
 						<img src={projet.image} alt={projet.alt} />
 					</div>
 				))}
+			</div>
+			<div className="chevron-icon">
+				<FontAwesomeIcon icon={faChevronDown}/>
 			</div>
 		</div>
 	);
