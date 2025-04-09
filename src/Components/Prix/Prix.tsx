@@ -5,6 +5,7 @@ import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
 function Prix() {
 	return (
 		<div className="prix">
+			<img className="background-image" src="src/Images/logoCentralBlanc.png" alt=""/>
 			<div className="title">Mes Prix</div>
 			<div className="content">
 			</div>

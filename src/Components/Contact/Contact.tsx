@@ -5,6 +5,7 @@ import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
 function Contact() {
 	return (
 		<div className="contact">
+			<img className="background-image" src="src/Images/logoCentralBlanc.png" alt=""/>
 			<div className="title">Me Contacter</div>
 			<div className="content">
 			</div>
