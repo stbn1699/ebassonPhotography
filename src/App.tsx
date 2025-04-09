@@ -36,7 +36,6 @@ function App() {
 				<div className="gradientSeparator"></div>
 				<Projets/>
 			</div>
-			<img className="logoTransparent" src="Images/logoCentralBlanc.png" alt="logo Esteban Basson cursif"/>
 			<div
 				className="caroussel"
 				style={{backgroundImage: `url(${backgroundImage})`}}
