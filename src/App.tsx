@@ -40,6 +40,9 @@ function App() {
 				<Prix/>
 				<Contact/>
 			</div>
+			<div>
+				<img className="background-image" src="src/Images/logoCentralBlanc.png" alt=""/>
+			</div>
 			<div
 				className="caroussel"
 				style={{backgroundImage: `url(${backgroundImage})`}}

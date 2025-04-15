@@ -25,7 +25,6 @@ function Projets() {
 
 	return (
 		<div className="projets">
-			<img className="background-image" src="src/Images/logoCentralBlanc.png" alt=""/>
 			<div className="title">Projets</div>
 			<div className="projectsBox">
 				{projets.map((projet, index) => (
